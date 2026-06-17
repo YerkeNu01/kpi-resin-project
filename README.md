@@ -26,7 +26,7 @@ This project develops a comprehensive analytical framework for evaluating ion-ex
 ## How to Use
 
 ```bash
-git clone (https://github.com/YerkeNu01/kpi-resin-project)] 
+git clone https://github.com/YerkeNu01/kpi-resin-project 
 cd resin-project-3
 jupyter notebook
 ```
