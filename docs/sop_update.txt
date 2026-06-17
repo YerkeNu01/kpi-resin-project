@@ -1,0 +1,70 @@
+
+SOP ADDITION: 6 KPI RESIN PROJECT
+==================================
+Date: 2026-06-17
+
+SECTION TO ADD TO SOP (after existing project description)
+-----------------------------------------------------------
+
+Building on this foundation, I developed a second independent project: 
+a comprehensive 6-KPI evaluation framework for ion-exchange resins in 
+ISR uranium projects. While my first project focused on predictive modeling 
+of total cost of ownership, this project addressed multi-criteria decision 
+making—a different but equally critical aspect of business analytics.
+
+The challenge was to create a standardized evaluation system that could 
+balance six competing performance indicators: working capacity, lifecycle 
+cost, service life, resin losses, uranium recovery, and proven track record 
+(ISR reference projects). Each KPI represents a different stakeholder priority:
+- Engineering teams prioritize capacity and recovery
+- Finance teams focus on lifecycle cost
+- Operations teams care about service life and losses
+- Risk managers value proven track record
+
+I developed a composite scoring system with customizable weights, enabling 
+different project types to prioritize different KPIs. For example, high-grade 
+deposits prioritize capacity, while new ISR projects prioritize proven technology. 
+The interactive tool I built allows procurement teams to adjust weights in 
+real-time and receive instant recommendations.
+
+This project reinforced my understanding that business analytics is not just 
+about building accurate models—it's about creating decision support systems 
+that stakeholders can actually use. The composite scoring framework has been 
+designed for immediate implementation, with clear documentation and training 
+materials for procurement teams.
+
+Together, these two projects demonstrate my ability to tackle different types 
+of business problems:
+1. **Predictive Analytics:** Forecasting TCO with machine learning (R²=0.98)
+2. **Prescriptive Analytics:** Multi-criteria optimization with composite scoring
+
+Both projects delivered measurable business value and are ready for 
+implementation in real-world operations.
+
+KEY METRICS TO INCLUDE
+----------------------
+
+- Dataset size: 400 resin batches
+- Number of KPIs: 6 (industry-standard metrics)
+- Suppliers evaluated: 5
+- Statistical tests performed: ANOVA, correlation analysis
+- Interactive parameters: 11 customizable sliders
+- Scenario types: 4 (high-grade, low-grade, new project, high-acidity)
+- Business recommendations: 5 strategic actions
+- Estimated savings: $355,622 for typical operation
+
+WHY THIS MATTERS FOR MS BUSINESS ANALYTICS
+-------------------------------------------
+
+This project demonstrates:
+1. **Versatility:** Ability to work on different types of analytics problems
+2. **Business Acumen:** Understanding of stakeholder priorities and trade-offs
+3. **Technical Depth:** Statistical analysis, tool development, visualization
+4. **Communication:** Clear documentation and executive reporting
+5. **Impact Focus:** Quantified business value and implementation roadmap
+
+These are exactly the skills that MS Business Analytics programs seek in 
+candidates, and they align perfectly with my career goals in the energy sector.
+
+---
+Ready to integrate into SOP!

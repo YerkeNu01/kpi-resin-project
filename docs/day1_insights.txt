@@ -1,0 +1,93 @@
+
+ INSIGHTS FROM DAY 1: 6 KPI DATASET
+======================================
+Project: kpi-resin-project (INDEPENDENT)
+Date: 2026-06-16
+
+##  What We Did
+- Created completely NEW independent project
+- Generated 400 records with 6 key performance indicators
+- Calculated Lifecycle Cost using real business formula
+- Compared 5 suppliers across all 6 KPIs
+- Created 12 visualizations
+
+##  6 KEY PERFORMANCE INDICATORS
+
+### KPI 1: Working Capacity (кг U/м³)
+• Average: 37.6 kg U/m³
+• Range: 24.1 - 48.0
+• Best supplier: Purolite
+
+### KPI 2: Lifecycle Cost ($/кг U) ← MOST IMPORTANT
+• Average: $4.75/kg U
+• Range: $2.72 - $10.99
+• Best supplier: Purolite
+• Formula: Total costs / Total uranium extracted
+
+### KPI 3: Service Life (лет)
+• Average: 4.5 years
+• Best supplier: Purolite
+
+### KPI 4: Resin Losses (%/год)
+• Average: 3.52%/year
+• Best supplier: Purolite
+
+### KPI 5: Uranium Recovery (%)
+• Average: 92.1%
+• Best supplier: Purolite
+
+### KPI 6: ISR Reference Projects (шт)
+• Average: 19 projects
+• Best supplier: Purolite
+
+##  SUPPLIER RANKINGS
+
+By Lifecycle Cost (lower is better):
+supplier
+Purolite                3.82
+DuPont                  4.20
+Lanxess                 4.84
+ResinTech               5.30
+Kazatomprom_Supplies    5.93
+
+By Working Capacity (higher is better):
+supplier
+Purolite                41.91
+DuPont                  40.79
+Lanxess                 36.82
+ResinTech               35.20
+Kazatomprom_Supplies    32.04
+
+By Uranium Recovery (higher is better):
+supplier
+Purolite                94.40
+DuPont                  93.15
+Lanxess                 91.99
+ResinTech               90.78
+Kazatomprom_Supplies    89.16
+
+##  KEY INSIGHTS
+
+### Insight #1: Lifecycle Cost is the ultimate metric
+Even if a resin is expensive upfront, it can have LOWER lifecycle cost
+if it has high capacity, long life, and high recovery.
+
+### Insight #2: Premium suppliers dominate
+Top suppliers (Purolite) lead across ALL 6 KPIs.
+Budget suppliers (Kazatomprom) lag in every dimension.
+
+### Insight #3: Trade-offs are minimal
+Unlike what one might expect, there are few trade-offs between KPIs.
+Good suppliers are good everywhere; weak suppliers are weak everywhere.
+
+##  Files Created
+- data/six_kpi_dataset.csv (400 records × 15 columns)
+- visuals/six_kpi_distributions.png
+- visuals/supplier_comparison_6kpi.png
+
+##  Ready for Day 2
+Tomorrow we'll:
+1. Analyze correlations between 6 KPIs
+2. Identify trade-offs
+3. Create correlation heatmap
+4. Perform statistical tests (ANOVA)

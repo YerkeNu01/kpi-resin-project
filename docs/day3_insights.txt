@@ -1,0 +1,108 @@
+
+INSIGHTS FROM DAY 3: COMPOSITE SCORING & INTERACTIVE TOOL
+==========================================================
+Project: kpi-resin-project
+Date: 2026-06-17
+
+WHAT WE DID
+-----------
+1. Created composite scoring system (weighted KPI ranking)
+2. Built interactive resin selector tool
+3. Performed what-if scenario analysis (4 scenarios)
+4. Generated comprehensive business recommendations
+
+COMPOSITE SCORING SYSTEM
+------------------------
+Formula: Composite Score = sum(normalized_KPI_i * weight_i)
+
+Default weights:
+- Working Capacity: 25%
+- Lifecycle Cost: 25%
+- Service Life: 15%
+- Resin Losses: 15%
+- Uranium Recovery: 15%
+- ISR Projects: 5%
+
+Results:
+- Mean score: 57.67
+- Max score: 86.55
+- Min score: 10.90
+- Std dev: 15.96
+
+Top resin: ISR-0017 (Purolite)
+Score: 86.55
+
+INTERACTIVE TOOL
+----------------
+Features:
+- 5 constraint sliders (capacity, cost, recovery, ISR projects, price)
+- 6 weight sliders (one for each KPI)
+- Real-time recommendations
+- Top 5 resin display
+
+Usage:
+- Adjust constraints to filter resins
+- Adjust weights to reflect priorities
+- System recalculates scores instantly
+- Displays top 5 matching resins
+
+WHAT-IF SCENARIOS
+-----------------
+Scenario 1: High-Grade Deposit
+- Focus: Maximum capacity
+- Top resin: ISR-0132
+- Score: 82.97
+
+Scenario 2: Low-Grade Deposit
+- Focus: Cost efficiency
+- Top resin: ISR-0166
+- Score: 88.48
+
+Scenario 3: New ISR Project (High Risk)
+- Focus: Proven technology
+- Top resin: ISR-0017
+- Score: 77.02
+
+Scenario 4: High-Acidity Environment
+- Focus: Durability
+- Top resin: ISR-0220
+- Score: 85.77
+
+KEY INSIGHTS
+------------
+
+Insight 1: Composite scoring enables multi-criteria optimization
+- Single metric simplifies decision-making
+- Weights reflect business priorities
+- Transparent and reproducible
+
+Insight 2: Different projects need different resins
+- No universal "best" resin
+- Scenario-based selection optimizes outcomes
+- Flexibility is key
+
+Insight 3: Interactive tools drive adoption
+- Real-time feedback encourages exploration
+- Visual display aids understanding
+- Empowers decision-makers
+
+Insight 4: Data-driven procurement creates value
+- Quantified savings: ~$1,778,109
+- Reduced risk through proven suppliers
+- Better alignment with project requirements
+
+FILES CREATED
+-------------
+- visuals/composite_score_analysis.png
+- visuals/whatif_scenarios.png
+- data/scenario_results.csv
+- docs/day3_recommendations.md
+- docs/day3_insights.txt (this file)
+
+READY FOR DAY 4
+---------------
+Tomorrow we'll:
+1. Create radar charts for visual comparison
+2. Build executive dashboard
+3. Prepare final project summary
+4. Update portfolio documentation

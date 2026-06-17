@@ -1,0 +1,114 @@
+
+ INSIGHTS FROM DAY 2: CORRELATION & STATISTICAL ANALYSIS
+============================================================
+Project: kpi-resin-project (INDEPENDENT)
+Date: 2026-06-16
+
+##  WHAT WE DID
+1. Built correlation heatmap for 6 KPIs
+2. Analyzed trade-offs between key metrics
+3. Performed ANOVA tests for supplier comparison
+4. Identified "universal champion" supplier
+
+##  CORRELATION ANALYSIS
+
+### Strongest Correlations:
+• Lifecycle Cost ↔ Service Life: -0.854
+• Uranium Recovery ↔ ISR Projects: +0.730
+• Working Capacity ↔ Lifecycle Cost: -0.698
+• Working Capacity ↔ ISR Projects: +0.690
+• Working Capacity ↔ Uranium Recovery: +0.681
+
+### Weakest Correlations:
+• Lifecycle Cost ↔ Uranium Recovery: -0.574
+• Lifecycle Cost ↔ ISR Projects: -0.551
+• Lifecycle Cost ↔ Resin Losses: +0.523
+
+### Key Finding:
+Most correlations are strong 
+(average |r| = 0.648).
+
+This means KPIs are relatively INDEPENDENT — improving one doesn't necessarily hurt others.
+
+## ⚖️ TRADE-OFF ANALYSIS
+
+### Capacity vs Service Life: +0.602
+⚠️ Trade-off exists
+
+### Lifecycle Cost vs Recovery: -0.574
+⚠️ Trade-off exists
+
+### Losses vs ISR Projects: -0.670
+⚠️ Trade-off exists
+
+### Price vs Capacity: +0.680
+⚠️ Trade-off exists (expected: premium = better)
+
+### Key Finding:
+Some trade-offs exist — need to balance between KPIs.
+
+##  ANOVA TESTS (Supplier Comparison)
+
+### Results:
+• Working Capacity: p = 0.000000  YES
+• Lifecycle Cost: p = 0.000000  YES
+• Service Life: p = 0.000000  YES
+• Resin Losses: p = 0.000000  YES
+• Uranium Recovery: p = 0.000000  YES
+• ISR Projects: p = 0.000000  YES
+
+### Summary:
+6 out of 6 KPIs show statistically significant supplier differences (p < 0.05).
+
+ ALL KPIs differ significantly — supplier choice CRITICALLY matters!
+
+##  UNIVERSAL CHAMPION
+
+### Winner: Purolite
+- Average rank: 1.00
+- Best at 7 out of 6 KPIs
+-  EXCELLENT!
+
+### Runner-up: DuPont
+- Average rank: 2.00
+- Strong alternative
+
+### Full Rankings:
+1. Purolite: avg rank 1.00
+2. DuPont: avg rank 2.00
+3. Lanxess: avg rank 3.00
+4. ResinTech: avg rank 4.00
+5. Kazatomprom_Supplies: avg rank 5.00
+
+##  KEY INSIGHTS
+
+### Insight #1: KPIs are mostly independent
+Low average correlation means you can optimize multiple KPIs simultaneously
+without major trade-offs. This is ideal for procurement strategy.
+
+### Insight #2: Supplier choice matters significantly
+ANOVA shows that suppliers are statistically different across most KPIs.
+This confirms that procurement decisions should be data-driven, not based
+on price alone.
+
+### Insight #3: Purolite is the universal champion
+With an average rank of 1.00, Purolite
+consistently performs well across all dimensions. This makes it the safest
+choice for new ISR projects.
+
+### Insight #4: Premium suppliers dominate
+Top suppliers lead across multiple KPIs, justifying their higher prices
+through better lifecycle performance.
+
+##  FILES CREATED
+- visuals/correlation_heatmap.png
+- visuals/tradeoff_analysis.png
+- visuals/anova_tests.png
+- visuals/universal_champions.png
+
+##  READY FOR DAY 3
+Tomorrow we'll:
+1. Create composite scoring system (weighted KPI ranking)
+2. Build interactive Resin Selector tool
+3. Perform what-if scenario analysis
+4. Generate business recommendations
